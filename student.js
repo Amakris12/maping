@@ -7,6 +7,8 @@ for (var i = 0; i <= student.length-1; i+=2) {
     studentgrades.set(student[i],student[i+1])
     //problem two
     console.log(student[i]);
+    //problem six
+    console.log(studentgrades.get(student[i]));
 }
 //problem one
 console.log(studentgrades);
@@ -25,13 +27,10 @@ studentgrades.delete('Freyja Joyce','99%');
 studentgrades.delete('Lynda Whitley','100%');
 studentgrades.delete('Lina Flower','99%');
 studentgrades.delete('Coby Peters','52%');
-studentgrades.delete('Martin Pratt', '53%');
+studentgrades.delete('Martin Pratt', '53%');    
 studentgrades.delete('Kimora Carver','54%');
 studentgrades.delete('Dewey Benton', '55%');
-//problem six
-console.log(studentgrades.get())
-
-
+//problem 4
 
 
 
